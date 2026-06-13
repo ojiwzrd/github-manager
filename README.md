@@ -1,61 +1,85 @@
-# Welcome to your OnSpace project
+# GitHub Manager
 
-## How can I edit this code?
+Dashboard modern untuk mengelola akun GitHub langsung dari browser. Kelola repository, branch, file, issue, pull request, workflow, dan berbagai fitur GitHub lainnya dalam satu tempat.
 
-There are several ways of editing your application.
+## Fitur
 
-**Use OnSpace**
+- Login menggunakan GitHub Personal Access Token
+- Manajemen Repository
+- File Manager & Code Editor
+- Issue Management
+- GitHub Actions Workflow
+- Repository Secrets Management
+- Dark Mode & Light Mode
+- Tampilan modern dan responsif
 
-Simply visit the [OnSpace Project]() and start prompting.
+## Instalasi
 
-Changes made via OnSpace will be committed automatically to this repo.
+Pastikan Node.js dan npm sudah terpasang.
 
-**Use your preferred IDE**
+### Clone Repository
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in OnSpace.
+```bash
+git clone https://github.com/ojiwzrd/github-manager.git
+cd github-manager
+```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Install Dependencies
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
+```bash
 npm i
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### Jalankan Development Server
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Aplikasi akan berjalan di:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```text
+http://localhost:5173
+```
 
-**Use GitHub Codespaces**
+## Build Production
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+npm run build
+```
 
-## What technologies are used for this project?
+## Preview Build
 
-This project is built with:
+```bash
+npm run preview
+```
 
-- Vite
-- TypeScript
+## Teknologi yang Digunakan
+
 - React
-- shadcn-ui
+- TypeScript
+- Vite
 - Tailwind CSS
+- Zustand
+- TanStack Query
+- React Router
+- CodeMirror
+- Lucide Icons
 
-## How can I deploy this project?
+## Autentikasi
 
-Simply open [OnSpace]() and click on Share -> Publish.
+GitHub Manager menggunakan GitHub Personal Access Token (PAT) untuk mengakses API GitHub.
+
+Scope yang direkomendasikan:
+
+```text
+repo
+read:user
+read:org
+workflow
+admin:repo_hook
+```
+
+## Lisensi
+
+MIT License
