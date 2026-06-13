@@ -13,32 +13,22 @@
   <img src="https://img.shields.io/github/issues/ojiwzrd/github-manager?style=for-the-badge">
 </p>
 
-<p>
-  <a href="#instalasi">
-    <img src="https://img.shields.io/badge/Get_Started-238636?style=for-the-badge&logo=github&logoColor=white">
-  </a>
-  <a href="#fitur">
-    <img src="https://img.shields.io/badge/View_Features-0969DA?style=for-the-badge&logo=github&logoColor=white">
-  </a>
-</p>
-
 Dashboard modern untuk mengelola akun GitHub langsung dari browser.
 
 </div>
-
 
 ## ✨ Fitur
 
 | Fitur | Deskripsi |
 |--------|-----------|
-| 🔐 Login GitHub PAT | Login menggunakan GitHub Personal Access Token |
-| 📦 Repository Management | Kelola repository GitHub langsung dari dashboard |
-| 📄 File Manager & Code Editor | Membuat, mengedit, dan mengelola file repository |
-| 🐞 Issue Management | Melihat dan mengelola issue repository |
-| ⚡ GitHub Actions Workflow | Menjalankan dan memantau workflow GitHub Actions |
-| 🔑 Repository Secrets Management | Mengelola repository secrets |
-| 🌙 Dark & Light Mode | Tampilan terang dan gelap |
-| 📱 Responsive UI | Optimal untuk desktop maupun perangkat mobile |
+| 🔐 GitHub Auth | Login menggunakan GitHub Personal Access Token |
+| 📦 Repository | Kelola repository GitHub langsung dari dashboard |
+| 📄 File Editor | Membuat, mengedit, dan mengelola file repository |
+| 🐞 Issues | Melihat dan mengelola issue repository |
+| ⚡ Actions | Menjalankan dan memantau workflow GitHub Actions |
+| 🔑 Secrets | Mengelola repository secrets |
+| 🌙 Themes | Tampilan terang dan gelap |
+| 📱 Responsive | Optimal untuk desktop maupun perangkat mobile |
 
 ---
 
