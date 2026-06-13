@@ -7,7 +7,7 @@
 <br>
 
 <p>
-  <img src="https://img.shields.io/github/license/ojiwzrd/github-manager?style=for-the-badge">
+  <img src="https://img.shields.io/github/license/ojiwzrd/github-manager">
   <img src="https://img.shields.io/github/stars/ojiwzrd/github-manager?style=for-the-badge">
   <img src="https://img.shields.io/github/forks/ojiwzrd/github-manager?style=for-the-badge">
   <img src="https://img.shields.io/github/issues/ojiwzrd/github-manager?style=for-the-badge">
