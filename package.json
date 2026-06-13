@@ -1,8 +1,9 @@
 {
-  "name": "vite_react_shadcn_ts",
+  "name": "threew-ghmanager",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "author": "ojiwzrd",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
