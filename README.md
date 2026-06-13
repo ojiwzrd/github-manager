@@ -6,33 +6,26 @@
 
 <br>
 
-<p>
-  <img src="https://img.shields.io/github/license/ojiwzrd/github-manager">
-  <img src="https://img.shields.io/github/stars/ojiwzrd/github-manager?style=for-the-badge">
-  <img src="https://img.shields.io/github/forks/ojiwzrd/github-manager?style=for-the-badge">
-  <img src="https://img.shields.io/github/issues/ojiwzrd/github-manager?style=for-the-badge">
-</p>
-
 Dashboard modern untuk mengelola akun GitHub langsung dari browser.
 
 </div>
 
-## ✨ Fitur
+##  Fitur
 
 | Fitur | Deskripsi |
 |--------|-----------|
-| 🔐 GitHub Auth | Login menggunakan GitHub Personal Access Token |
-| 📦 Repository | Kelola repository GitHub langsung dari dashboard |
-| 📄 File Editor | Membuat, mengedit, dan mengelola file repository |
-| 🐞 Issues | Melihat dan mengelola issue repository |
-| ⚡ Actions | Menjalankan dan memantau workflow GitHub Actions |
-| 🔑 Secrets | Mengelola repository secrets |
-| 🌙 Themes | Tampilan terang dan gelap |
-| 📱 Responsive | Optimal untuk desktop maupun perangkat mobile |
+| GitHub Auth | Login menggunakan GitHub Personal Access Token |
+| Repository | Kelola repository GitHub langsung dari dashboard |
+| File Editor | Membuat, mengedit, dan mengelola file repository |
+| Issues | Melihat dan mengelola issue repository |
+| Actions | Menjalankan dan memantau workflow GitHub Actions |
+| Secrets | Mengelola repository secrets |
+| Themes | Tampilan terang dan gelap |
+| Responsive | Optimal untuk desktop maupun perangkat mobile |
 
 ---
 
-## 🚀 Instalasi
+## Instalasi
 
 Pastikan **Node.js** dan **npm** sudah terpasang.
 
@@ -63,7 +56,7 @@ http://localhost:5173
 
 ---
 
-## 📦 Build Production
+##  Build Production
 
 ```bash
 npm run build
@@ -71,7 +64,7 @@ npm run build
 
 ---
 
-## 👀 Preview Production Build
+##  Preview Production Build
 
 ```bash
 npm run preview
@@ -79,7 +72,7 @@ npm run preview
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+##  Teknologi yang Digunakan
 
 | Teknologi | Kegunaan |
 |------------|-----------|
@@ -95,7 +88,7 @@ npm run preview
 
 ---
 
-## 🔐 Autentikasi
+##  Autentikasi
 
 GitHub Manager menggunakan **GitHub Personal Access Token (PAT)** untuk mengakses GitHub API.
 
@@ -108,14 +101,6 @@ read:org
 workflow
 admin:repo_hook
 ```
-
----
-
-## 📄 Lisensi
-
-Proyek ini dilisensikan di bawah **MIT License**.
-
----
 
 <div align="center">
 
